@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="81px" viewBox="0 0 89 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="layers-4" fill-rule="nonzero">
+            <polygon id="Path" fill="#359AF0" points="10.3833333 43.8237082 0 49.0021711 0 57.879536 44.5 80.0729483 89 57.879536 89 49.0021711 78.6166667 43.8237082"></polygon>
+            <polygon id="Path" fill="#79BDF7" points="78.6166667 27.5927052 89 32.7685917 89 38.6838906 44.5 60.8662614 0 38.6838906 0 32.7685917 10.3833333 27.5927052"></polygon>
+            <polygon id="Path" fill="#9ED2FF" points="0 22.1823708 44.5 0 89 22.1823708 44.5 44.3647416"></polygon>
+            <polygon id="Path" fill="#59AAF0" points="0 38.6554151 44.3647416 60.8662614 44.3647416 54.9433691 0 32.7325228"></polygon>
+            <polygon id="Path" fill="#2087DE" points="0 48.9635258 44.3647416 71.1845419 44.3647416 80.0729483 0 57.8519323"></polygon>
+            <polygon id="Path" fill="#4D96D5" points="44.6352584 54.9433691 44.6352584 60.8662614 89 38.6554151 89 32.7325228"></polygon>
+            <polygon id="Path" fill="#1D71B8" points="44.6352584 71.1845419 44.6352584 80.0729483 89 57.8519323 89 48.9635258"></polygon>
+        </g>
+    </g>
+</svg>
