@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('../img/sinfondo.png'); /* Ruta a tu imagen de fondo */
+    background-size: cover;
+  }
+  
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    color: #333;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 12px; /* Aumenté el padding para mejorar el aspecto */
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .login-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .user-icon {
+    font-size: 48px;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-container {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .checkbox-container label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-container input {
+    margin-right: 5px;
+    transform: scale(0.8); /* Ajusta el tamaño del checkbox */
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000; /* Cambiar a un color legible en tu fondo */
+    text-align: center;
+  }  

@@ -1,0 +1,31 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Agregar extensión .php si el archivo existe
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+    # Agregar extensión .html si el archivo existe
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+    ErrorDocument 404 /error.html
+</IfModule>
+
+# Desactivar la visualización de listas de directorios
+ Options -Indexes
+
+# Ocultar la firma del servidor y la información de versión
+ServerSignature Off
+#ServerTokens Prod
+
+#<IfModule mod_rewrite.c>
+ #   RewriteEngine On
+
+    # Proteger contra solicitudes POST desde un origen no permitido
+  #  RewriteCond %{REQUEST_METHOD} POST
+  #  RewriteCond %{HTTP:Origin} !^http://www.rapidfiles.000.pe[NC]
+  #  RewriteRule ^ - [F]
+#</IfModule>
